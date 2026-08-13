@@ -1,0 +1,160 @@
+# General
+prefix: "&8[&6Locatix&8] "
+
+locatix-not-found: "&c¡El comando 'locatix' no se encontró en plugin.yml!"
+
+plugin-enabled: "&aPlugin activado."
+plugin-disabled: "&cPlugin desactivado."
+plugin-failed: "&c¡Error al activar el plugin!"
+
+unknown-command: "&cComando desconocido."
+usage-command: "&eUso: "
+use-help-command: "&cComando desconocido. Usa /locatix help"
+
+no-permission: "&cNo tienes permiso para usar este comando."
+player-only: "&cSolo los jugadores pueden usar este comando."
+player-not-found: "&c¡Jugador no encontrado!"
+
+# Language
+lang: "Español"
+lang-updated: "&aArchivo de idioma actualizado: &e${lang}"
+lang-update-failed: "&cError al actualizar el archivo de idioma: &e${lang}"
+lang-not-found: "&cArchivo de idioma no encontrado: &e${lang}"
+lang-changed-server: "&eEl idioma del servidor se ha cambiado a &a${lang}&e."
+lang-changed-client: "&eTu idioma se ha cambiado a &a${lang}&e."
+
+# Config
+config-reload: "&aConfiguración recargada."
+config-updated: "&aConfiguración actualizada correctamente."
+config-update-failed: "&c¡Error al actualizar la configuración!"
+config-reset: "&aConfiguración restablecida correctamente."
+config-reset-warn: "&cEsto restablecerá tu configuración."
+config-not-found: "&c¡config.yml no encontrado en el jar!"
+
+# Update
+update-checker-error: "&cError al comprobar actualizaciones."
+new-plugin-update: "&aNueva versión disponible: &e${version}"
+plugin-up-to-date: "&a¡El plugin está actualizado! Estás usando la última versión."
+
+# Death
+no-death-location: "&cNo se encontró ubicación de muerte."
+last-death-title: "&8------ &6Última Ubicación de Muerte &8------"
+last-death-world: "&eMundo: &a&a${world}"
+last-death-location: "&eUbicación: &a"
+death-location-hover: "&aHaz clic para teletransportarte"
+death-teleported: "&aHas sido teletransportado al punto final de muerte."
+
+# Coordinates
+coordinates-enabled: "&aCoordenadas activadas."
+coordinates-disabled: "&cCoordenadas desactivadas."
+
+invaild-display-type: "&cTipo de visualización inválido. Usando: &e${type}"
+invaild-bossbar-color: "&cColor de bossbar inválido. Usando: &e${color}"
+invaild-bossbar-style: "&cEstilo de bossbar inválido. Usando: &e${style}"
+
+# Convert
+already-in-nether: "&cYa estás en el Nether."
+already-in-overworld: "&cYa estás en el Overworld."
+nether-location: "&cUbicación del Nether: "
+overworld-location: "&aUbicación del Overworld: "
+
+# Get Player
+player-title: "&8------ &6Ubicación del Jugador &8------"
+player: "&eJugador: &a"
+player-location: "&eUbicación del Jugador: "
+player-world: "&eMundo del Jugador: &a"
+
+player-teleported: "&aHas sido teletransportado al jugador &e${player}&a."
+world-not-found: "&c¡Mundo no encontrado!"
+
+# Share
+share-location-notification: "&eEl jugador &a${player} &ecompartió su ubicación contigo."
+share-location: "&aUbicación de ${player}: "
+share-myself-error: "&c¡No puedes compartir tu propia ubicación contigo mismo!"
+share-location-cooldown: "&cDebes esperar &e${time} &csegundos antes de usar este comando de nuevo."
+
+# Menú de Ayuda
+locatix-title: "&8------ &6Ayuda de Locatix &8------"
+locatix-help: "&6/locatix help &7- &eMuestra este menú de ayuda."
+locatix-reload: "&6/locatix reload &7- &eRecarga el plugin."
+locatix-reset: "&6/locatix resetconfig &7- &eRestablece la configuración."
+locatix-adminpanel: "&6/locatix adminpanel &7- &eAbre el panel de administración."
+locatix-serverlang: "&6/locatix serverlang <idioma> &7- &eCambia el idioma del servidor."
+locatix-get: "&6/locatix get <jugador> &7- &eMuestra las coordenadas y el mundo actual de un jugador."
+
+locatix-lang: "&6/locatix lang <idioma> &7- &eCambia tu idioma."
+locatix-lastdeath: "&6/locatix lastdeath &7- &eMuestra tu última ubicación de muerte."
+locatix-coordinates: "&6/locatix coordinates &7- &eActiva/desactiva las coordenadas."
+locatix-share: "&6/locatix share <jugador> &7- &eComparte tu ubicación con otro jugador."
+locatix-convert: "&6/locatix convert <nether/world> &7- &eConvierte tus coordenadas entre el Nether y el Overworld."
+
+# Other
+placeholderapi-enabled: "&aSoporte de PlaceholderAPI activado."
+placeholderapi-failed: "&cError al registrar la expansión de PlaceholderAPI."
+
+# Panel de Administración
+admin-panel: "&8Panel de Administración de Locatix"
+
+player-manager-title: "&aGestor de Jugadores"
+player-manager-subtitle:
+  - "&7Ver jugadores en línea"
+  - "&7y gestionarlos."
+  - ""
+  - "&eHaz clic para abrir"
+
+lang-settings-title: "&bAjustes de Idioma"
+lang-settings-subtitle:
+  - "&7Cambia tu idioma."
+  - ""
+  - "&eHaz clic para abrir"
+
+reload-plugin-title: "&cRecargar Plugin"
+reload-plugin-subtitle:
+  - "&7Recarga la configuración y"
+  - "&7los archivos de idioma."
+  - ""
+  - "&eHaz clic para recargar"
+
+plugin-info-title: "&aInformación del Plugin"
+plugin-info-subtitle:
+  - "&7Versión: &e${version}"
+  - "&7Jugadores en línea: &e${online}"
+
+close-title: "&cCerrar"
+close-subtitle:
+  - "&7Cierra este menú."
+
+back-title: "&cAtrás"
+back-subtitle:
+  - "&7Volver al Menú de Administración."
+
+# Menú de Idioma
+lang-settings-panel: "&8Ajustes de Idioma"
+
+lang-subtitle:
+  - "&7Cambia el idioma del servidor."
+  - ""
+  - "&eHaz clic para seleccionar"
+
+# Información del Jugador
+player-info-panel: "&8Información del Jugador"
+
+teleport-title: "&aTeletransportar"
+teleport-subtitle:
+  - "&6Mundo: &e${world}"
+  - "&6X: &e${x}"
+  - "&6Y: &e${y}"
+  - "&6Z: &e${z}"
+  - ""
+  - "&aTeletransportarse al jugador"
+
+# Lista de Jugadores
+player-list-panel: "&8Lista de Jugadores"
+
+player-list-subtitle:
+  - "&6Mundo: &e${world}"
+  - "&6X: &e${x}"
+  - "&6Y: &e${y}"
+  - "&6Z: &e${z}"
+  - ""
+  - "&aHaz clic para ver información"

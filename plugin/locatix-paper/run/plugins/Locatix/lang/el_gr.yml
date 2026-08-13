@@ -1,0 +1,163 @@
+# Γενικά
+prefix: "&8[&6Locatix&8] "
+
+locatix-not-found: "&cΗ εντολή 'locatix' δεν βρέθηκε στο plugin.yml!"
+
+plugin-enabled: "&aΤο πρόσθετο ενεργοποιήθηκε."
+plugin-disabled: "&cΤο πρόσθετο απενεργοποιήθηκε."
+plugin-failed: "&cΑποτυχία ενεργοποίησης του προσθέτου!"
+
+unknown-command: "&cΆγνωστη εντολή."
+usage-command: "&eΧρήση: "
+use-help-command: "&cΆγνωστη εντολή. Χρησιμοποίησε /locatix help"
+
+no-permission: "&cΔεν έχεις άδεια να χρησιμοποιήσεις αυτή την εντολή."
+player-only: "&cΜόνο παίκτες μπορούν να χρησιμοποιήσουν αυτή την εντολή."
+player-not-found: "&cΟ παίκτης δεν βρέθηκε!"
+
+# Γλώσσα
+lang: "Ελληνικά"
+lang-updated: "&aΤο αρχείο γλώσσας ενημερώθηκε: &e${lang}"
+lang-update-failed: "&cΑποτυχία ενημέρωσης αρχείου γλώσσας: &e${lang}"
+lang-not-found: "&cΤο αρχείο γλώσσας δεν βρέθηκε: &e${lang}"
+lang-changed-server: "&eΗ γλώσσα του διακομιστή άλλαξε σε &a${lang}&e."
+lang-changed-client: "&eΗ γλώσσα σου άλλαξε σε &a${lang}&e."
+lang-change-error: "&cΑποτυχία διαγραφής του config.yml"
+lang-add: "&aΠροστέθηκε ελλιπές κλειδί γλώσσας: &e${lang} &a-> &e${key}"
+
+# Ρυθμίσεις
+config-reload: "&aΟι ρυθμίσεις φορτώθηκαν ξανά."
+config-updated: "&aΟι ρυθμίσεις ενημερώθηκαν με επιτυχία."
+config-update-failed: "&cΑποτυχία ενημέρωσης ρυθμίσεων!"
+config-reset: "&aΟι ρυθμίσεις επαναφέρθηκαν με επιτυχία."
+config-reset-warn: "&cΑυτό θα επαναφέρει τις ρυθμίσεις σου."
+config-not-found: "&cΤο config.yml δεν βρέθηκε στο jar!"
+config-add: "&aΠροστέθηκε ελλιπής επιλογή ρυθμίσεων: &e${key}"
+
+# Ενημέρωση
+update-checker-error: "&cΑποτυχία ελέγχου ενημερώσεων."
+new-plugin-update: "&aΝέα έκδοση διαθέσιμη: &e${version}"
+plugin-up-to-date: "&aΤο πρόσθετο είναι ενημερωμένο! Χρησιμοποιείς την τελευταία έκδοση."
+
+# Θάνατος
+no-death-location: "&cΔεν βρέθηκε τοποθεσία θανάτου."
+last-death-title: "&8------ &6Τελευταία Τοποθεσία Θανάτου &8------"
+last-death-world: "&eΚόσμος: &a&a${world}"
+last-death-location: "&eΤοποθεσία: &a"
+death-location-hover: "&aΚάνε κλικ για τηλεμεταφορά"
+death-teleported: "&aΜεταφέρθηκες στο τελικό σημείο θανάτου."
+
+# Συντεταγμένες
+coordinates-enabled: "&aΟι συντεταγμένες ενεργοποιήθηκαν."
+coordinates-disabled: "&cΟι συντεταγμένες απενεργοποιήθηκαν."
+
+invaild-display-type: "&cΜη έγκυρος display-type. Χρησιμοποιείται: &e${type}"
+invaild-bossbar-color: "&cΜη έγκυρο χρώμα bossbar. Χρησιμοποιείται: &e${color}"
+invaild-bossbar-style: "&cΜη έγκυρο στυλ bossbar. Χρησιμοποιείται: &e${style}"
+
+# Μετατροπή
+already-in-nether: "&cΕίσαι ήδη στο Nether."
+already-in-overworld: "&cΕίσαι ήδη στο Overworld."
+nether-location: "&cΤοποθεσία Nether: "
+overworld-location: "&aΤοποθεσία Overworld: "
+
+# Λήψη Παίκτη
+player-title: "&8------ &6Τοποθεσία Παίκτη &8------"
+player: "&eΠαίκτης: &a"
+player-location: "&eΤοποθεσία Παίκτη: "
+player-world: "&eΟ Κόσμος του Παίκτη: &a"
+
+player-teleported: "&aΜεταφέρθηκες στον παίκτη &e${player}&a."
+world-not-found: "&cΟ κόσμος δεν βρέθηκε!"
+
+# Κοινοποίηση
+share-location-notification: "&eΟ παίκτης &a${player} &eμοιράστηκε την τοποθεσία μαζί σου."
+share-location: "&aΤοποθεσία του ${player}: "
+share-myself-error: "&cΔεν μπορείς να μοιραστείς την τοποθεσία σου με τον εαυτό σου!"
+share-location-cooldown: "&cΠρέπει να περιμένεις &e${time} &cδευτερόλεπτα πριν χρησιμοποιήσεις ξανά αυτή την εντολή."
+
+# Μενού Βοήθειας
+locatix-title: "&8------ &6Βοήθεια Locatix &8------"
+locatix-help: "&6/locatix help &7- &eΕμφανίζει αυτό το μενού βοήθειας."
+locatix-reload: "&6/locatix reload &7- &eΕπαναφορτώνει το πρόσθετο."
+locatix-reset: "&6/locatix resetconfig &7- &eΕπαναφέρει τις ρυθμίσεις."
+locatix-adminpanel: "&6/locatix adminpanel &7- &eΑνοίγει τον πίνακα διαχειριστή."
+locatix-serverlang: "&6/locatix serverlang <γλώσσα> &7- &eΑλλάζει τη γλώσσα του διακομιστή."
+locatix-get: "&6/locatix get <παίκτης> &7- &eΕμφανίζει τις συντεταγμένες και τον κόσμο ενός παίκτη."
+
+locatix-lang: "&6/locatix lang <γλώσσα> &7- &eΑλλάζει τη δική σου γλώσσα."
+locatix-lastdeath: "&6/locatix lastdeath &7- &eΕμφανίζει την τελευταία τοποθεσία θανάτου σου."
+locatix-coordinates: "&6/locatix coordinates &7- &eΕναλλάσσει τις συντεταγμένες on/off."
+locatix-share: "&6/locatix share <παίκτης> &7- &eΜοιράζεται την τοποθεσία σου με άλλον παίκτη."
+locatix-convert: "&6/locatix convert <nether/world> &7- &eΜετατρέπει τις συντεταγμένες σου μεταξύ Nether και Overworld."
+
+# Άλλα
+placeholderapi-enabled: "&aΗ υποστήριξη PlaceholderAPI ενεργοποιήθηκε."
+placeholderapi-failed: "&cΑποτυχία καταχώρησης επέκτασης PlaceholderAPI."
+
+# Πίνακας Διαχειριστή
+admin-panel: "&8Πίνακας Διαχειριστή Locatix"
+
+player-manager-title: "&aΔιαχειριστής Παικτών"
+player-manager-subtitle:
+  - "&7Προβολή online παικτών"
+  - "&7και διαχείρισή τους."
+  - ""
+  - "&eΚάνε κλικ για άνοιγμα"
+
+lang-settings-title: "&bΡυθμίσεις Γλώσσας"
+lang-settings-subtitle:
+  - "&7Άλλαξε τη γλώσσα σου."
+  - ""
+  - "&eΚάνε κλικ για άνοιγμα"
+
+reload-plugin-title: "&cΕπαναφόρτωση Προσθέτου"
+reload-plugin-subtitle:
+  - "&7Επαναφόρτωση ρυθμίσεων και"
+  - "&7αρχείων γλώσσας."
+  - ""
+  - "&eΚάνε κλικ για επαναφόρτωση"
+
+plugin-info-title: "&aΠληροφορίες Προσθέτου"
+plugin-info-subtitle:
+  - "&7Έκδοση: &e${version}"
+  - "&7Online Παίκτες: &e${online}"
+
+close-title: "&cΚλείσιμο"
+close-subtitle:
+  - "&7Κλείσε αυτό το μενού."
+
+back-title: "&cΠίσω"
+back-subtitle:
+  - "&7Επιστροφή στο Μενού Διαχειριστή."
+
+# Μενού Γλώσσας
+lang-settings-panel: "&8Ρυθμίσεις Γλώσσας"
+
+lang-subtitle:
+  - "&7Άλλαξε τη γλώσσα του διακομιστή."
+  - ""
+  - "&eΚάνε κλικ για επιλογή"
+
+# Πληροφορίες Παίκτη
+player-info-panel: "&8Πληροφορίες Παίκτη"
+
+teleport-title: "&aΤηλεμεταφορά"
+teleport-subtitle:
+  - "&6Κόσμος: &e${world}"
+  - "&6X: &e${x}"
+  - "&6Y: &e${y}"
+  - "&6Z: &e${z}"
+  - ""
+  - "&aΤηλεμεταφορά στον παίκτη"
+
+# Λίστα Παικτών
+player-list-panel: "&8Λίστα Παικτών"
+
+player-list-subtitle:
+  - "&6Κόσμος: &e${world}"
+  - "&6X: &e${x}"
+  - "&6Y: &e${y}"
+  - "&6Z: &e${z}"
+  - ""
+  - "&aΚάνε κλικ για πληροφορίες"

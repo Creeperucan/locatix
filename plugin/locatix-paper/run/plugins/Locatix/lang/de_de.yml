@@ -1,0 +1,163 @@
+# Allgemein
+prefix: "&8[&6Locatix&8] "
+
+locatix-not-found: "&cBefehl 'locatix' wurde in plugin.yml nicht gefunden!"
+
+plugin-enabled: "&aPlugin aktiviert."
+plugin-disabled: "&cPlugin deaktiviert."
+plugin-failed: "&cPlugin konnte nicht aktiviert werden!"
+
+unknown-command: "&cUnbekannter Befehl."
+usage-command: "&eVerwendung: "
+use-help-command: "&cUnbekannter Befehl. Verwende /locatix help"
+
+no-permission: "&cDu hast keine Berechtigung, diesen Befehl zu verwenden."
+player-only: "&cNur Spieler können diesen Befehl verwenden."
+player-not-found: "&cSpieler nicht gefunden!"
+
+# Sprache
+lang: "Deutsch"
+lang-updated: "&aSprachdatei aktualisiert: &e${lang}"
+lang-update-failed: "&cSprachdatei konnte nicht aktualisiert werden: &e${lang}"
+lang-not-found: "&cSprachdatei nicht gefunden: &e${lang}"
+lang-changed-server: "&eDie Serversprache wurde auf &a${lang} &egeändert."
+lang-changed-client: "&eDeine Sprache wurde auf &a${lang} &egeändert."
+lang-change-error: "&cconfig.yml konnte nicht gelöscht werden"
+lang-add: "&aFehlender Sprachschlüssel hinzugefügt: &e${lang} &a-> &e${key}"
+
+# Konfiguration
+config-reload: "&aKonfiguration neu geladen."
+config-updated: "&aKonfiguration erfolgreich aktualisiert."
+config-update-failed: "&cKonfiguration konnte nicht aktualisiert werden!"
+config-reset: "&aKonfiguration erfolgreich zurückgesetzt."
+config-reset-warn: "&cDadurch wird deine Konfiguration zurückgesetzt."
+config-not-found: "&cconfig.yml wurde im JAR nicht gefunden!"
+config-add: "&aFehlende Konfigurationsoption hinzugefügt: &e${key}"
+
+# Update
+update-checker-error: "&cUpdate-Prüfung fehlgeschlagen."
+new-plugin-update: "&aNeue Version verfügbar: &e${version}"
+plugin-up-to-date: "&aDas Plugin ist auf dem neuesten Stand! Du verwendest die aktuelle Version."
+
+# Tod
+no-death-location: "&cKein Todesort gefunden."
+last-death-title: "&8------ &6Letzter Todesort &8------"
+last-death-world: "&eWelt: &a&a${world}"
+last-death-location: "&eOrt: &a"
+death-location-hover: "&aKlicke zum Teleportieren"
+death-teleported: "&aDu wurdest zum letzten Todesort teleportiert."
+
+# Koordinaten
+coordinates-enabled: "&aKoordinaten aktiviert."
+coordinates-disabled: "&cKoordinaten deaktiviert."
+
+invaild-display-type: "&cUngültiger display-type. Verwendet: &e${type}"
+invaild-bossbar-color: "&cUngültige Bossbar-Farbe. Verwendet: &e${color}"
+invaild-bossbar-style: "&cUngültiger Bossbar-Stil. Verwendet: &e${style}"
+
+# Umrechnung
+already-in-nether: "&cDu bist bereits im Nether."
+already-in-overworld: "&cDu bist bereits in der Oberwelt."
+nether-location: "&cNether-Position: "
+overworld-location: "&aOberwelt-Position: "
+
+# Spieler abrufen
+player-title: "&8------ &6Spielerposition &8------"
+player: "&eSpieler: &a"
+player-location: "&eSpielerposition: "
+player-world: "&eWelt des Spielers: &a"
+
+player-teleported: "&aDu wurdest zum Spieler &e${player} &ateleportiert."
+world-not-found: "&cWelt nicht gefunden!"
+
+# Teilen
+share-location-notification: "&eSpieler &a${player} &ehat seine Position mit dir geteilt."
+share-location: "&aPosition von ${player}: "
+share-myself-error: "&cDu kannst deine Position nicht mit dir selbst teilen!"
+share-location-cooldown: "&cDu musst &e${time} &cSekunden warten, bevor du diesen Befehl erneut verwenden kannst."
+
+# Hilfe-Menü
+locatix-title: "&8------ &6Locatix Hilfe &8------"
+locatix-help: "&6/locatix help &7- &eZeigt dieses Hilfe-Menü an."
+locatix-reload: "&6/locatix reload &7- &eLädt das Plugin neu."
+locatix-reset: "&6/locatix resetconfig &7- &eSetzt die Konfiguration zurück."
+locatix-adminpanel: "&6/locatix adminpanel &7- &eÖffnet das Admin-Panel."
+locatix-serverlang: "&6/locatix serverlang <sprache> &7- &eÄndert die Serversprache."
+locatix-get: "&6/locatix get <spieler> &7- &eZeigt die Koordinaten und aktuelle Welt eines Spielers an."
+
+locatix-lang: "&6/locatix lang <sprache> &7- &eÄndert deine Sprache."
+locatix-lastdeath: "&6/locatix lastdeath &7- &eZeigt deinen letzten Todesort an."
+locatix-coordinates: "&6/locatix coordinates &7- &eSchaltet Koordinaten ein/aus."
+locatix-share: "&6/locatix share <spieler> &7- &eTeilt deine Position mit einem anderen Spieler."
+locatix-convert: "&6/locatix convert <nether/world> &7- &eRechnet deine Koordinaten zwischen Nether und Oberwelt um."
+
+# Sonstiges
+placeholderapi-enabled: "&aPlaceholderAPI-Unterstützung aktiviert."
+placeholderapi-failed: "&cRegistrierung der PlaceholderAPI-Erweiterung fehlgeschlagen."
+
+# Admin-Panel
+admin-panel: "&8Locatix Admin-Panel"
+
+player-manager-title: "&aSpielerverwaltung"
+player-manager-subtitle:
+  - "&7Online-Spieler anzeigen"
+  - "&7und verwalten."
+  - ""
+  - "&eKlicken zum Öffnen"
+
+lang-settings-title: "&bSpracheinstellungen"
+lang-settings-subtitle:
+  - "&7Ändere deine Sprache."
+  - ""
+  - "&eKlicken zum Öffnen"
+
+reload-plugin-title: "&cPlugin neu laden"
+reload-plugin-subtitle:
+  - "&7Lädt Konfiguration und"
+  - "&7Sprachdateien neu."
+  - ""
+  - "&eKlicken zum Neuladen"
+
+plugin-info-title: "&aPlugin-Informationen"
+plugin-info-subtitle:
+  - "&7Version: &e${version}"
+  - "&7Online-Spieler: &e${online}"
+
+close-title: "&cSchließen"
+close-subtitle:
+  - "&7Dieses Menü schließen."
+
+back-title: "&cZurück"
+back-subtitle:
+  - "&7Zurück zum Admin-Menü."
+
+# Sprachmenü
+lang-settings-panel: "&8Spracheinstellungen"
+
+lang-subtitle:
+  - "&7Ändere die Serversprache."
+  - ""
+  - "&eKlicken zum Auswählen"
+
+# Spielerinfo
+player-info-panel: "&8Spielerinformationen"
+
+teleport-title: "&aTeleportieren"
+teleport-subtitle:
+  - "&6Welt: &e${world}"
+  - "&6X: &e${x}"
+  - "&6Y: &e${y}"
+  - "&6Z: &e${z}"
+  - ""
+  - "&aZum Spieler teleportieren"
+
+# Spielerliste
+player-list-panel: "&8Spielerliste"
+
+player-list-subtitle:
+  - "&6Welt: &e${world}"
+  - "&6X: &e${x}"
+  - "&6Y: &e${y}"
+  - "&6Z: &e${z}"
+  - ""
+  - "&aKlicken für Informationen"

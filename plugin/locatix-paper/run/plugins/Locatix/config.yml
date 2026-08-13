@@ -1,0 +1,26 @@
+lang: en_us # en_us, tr_tr, el_gr, de_de, es_es
+check-for-updates: true # Plugin update control
+config-version: 1.0.1 # Plugin version
+
+show-coordinates: true # If true, all players can see their coordinates.
+update-interval: 1 # Minimum value: 1 (Recommended: 1)
+display-type: ACTIONBAR # ACTIONBAR or BOSSBAR
+bossbar: # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Bossbar#:~:text=Description-,style,-PROGRESS
+  color: RED
+  style: SEGMENTED_10
+
+location-text: '&c${world} &7| &6X: &e${x} &6Y: &e${y} &6Z: &e${z}' # Do not change ${world}, ${x}, ${y} and ${z}.
+location-text-no-world: '&6X: &e${x} &6Y: &e${y} &6Z: &e${z}' # Do not change ${x}, ${y} and ${z}.
+world-name: false # If true, `location-text` will be used..
+
+last-death-teleport: false # If true, players can teleport to their last death location.
+share-location-cooldown: 20 # Minimum value: 0 (Recommended: 10-20)
+
+world-names:
+  world: Overworld
+  world_nether: Nether
+  world_the_end: The End
+
+disabled-worlds:
+- world_nether
+- world_the_end

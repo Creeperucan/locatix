@@ -1,0 +1,100 @@
+name: Locatix
+description: $description
+version: '1.0.1'
+
+main: net.creeperucan.locatix.Locatix
+api-version: '1.21'
+load: POSTWORLD
+
+authors: [ Creeperucan ]
+
+commands:
+  locatix:
+    description: Main command
+    usage: /locatix help
+
+softdepend:
+  - PlaceholderAPI
+
+permissions:
+  locatix.admin:
+    description: Access to all admin commands
+    default: op
+    children:
+      locatix.admin.reload: true
+      locatix.admin.resetconfig: true
+      locatix.admin.get: true
+      locatix.admin.serverlang: true
+      locatix.admin.panel: true
+      locatix.admin.teleport: true
+      locatix.admin.help: true
+
+  locatix.admin.reload:
+    description: Admin plugin reload permission
+    default: op
+
+  locatix.admin.resetconfig:
+    description: Admin configuration reset permission
+    default: op
+
+  locatix.admin.get:
+    description: Admin has permission to retrieve player information.
+    default: op
+
+  locatix.admin.serverlang:
+    description: Permission to change the server language
+    default: op
+
+  locatix.admin.panel:
+    description: Permission to open the admin panel
+    default: op
+
+  locatix.admin.teleport:
+    description: Admin teleportation permission
+    default: op
+
+  locatix.admin.help:
+    description: Permission to view admin commands
+    default: op
+
+  locatix.player:
+    description: Access to all player commands
+    default: op
+    children:
+      locatix.player.help: true
+      locatix.player.coordinates: true
+      locatix.player.convert: true
+      locatix.player.lastdeath: true
+      locatix.player.share: true
+      locatix.player.lang: true
+
+  locatix.player.help:
+    description: Player has the right to view the help menu
+    default: op
+
+  locatix.player.coordinates:
+    description: Player coordinates enable/disable authority
+    default: op
+
+  locatix.player.convert:
+    description: Player coordinates conversion authority
+    default: op
+
+  locatix.player.lastdeath:
+    description: Player has the ability to view their last known death location
+    default: op
+
+  locatix.player.share:
+    description: Player has permission to share location with another player
+    default: op
+
+  locatix.player.lang:
+    description: The player has the ability to change their client language
+    default: op
+
+  locatix.*:
+    description: All permissions
+    default: op
+    children:
+      locatix.player: true
+      locatix.admin: true

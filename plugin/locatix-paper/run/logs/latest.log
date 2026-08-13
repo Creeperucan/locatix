@@ -1,0 +1,55 @@
+[14:49:10] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.12+8-LTS; Eclipse Adoptium Temurin-21.0.12+8) on Windows 11 10.0 (amd64)
+[14:49:10] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[14:49:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:49:11] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[14:49:11] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - Locatix (1.0.1), PlaceholderAPI (2.12.3)
+[14:49:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:49:16] [ServerMain/INFO]: Loaded 1290 recipes
+[14:49:17] [ServerMain/INFO]: Loaded 1399 advancements
+[14:49:17] [Server thread/INFO]: Starting minecraft server version 1.21
+[14:49:17] [Server thread/INFO]: Loading properties
+[14:49:17] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[14:49:18] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:49:18] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:49:18] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:49:18] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and population gen parallelism of 3 threads
+[14:49:18] [Server thread/INFO]: Default game type: SURVIVAL
+[14:49:18] [Server thread/INFO]: Generating keypair
+[14:49:18] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:49:18] [Server thread/INFO]: Using default channel type
+[14:49:18] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[14:49:18] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:49:19] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[14:49:19] [Server thread/INFO]: [Locatix] Loading server plugin Locatix v1.0.1
+[14:49:19] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:49:19] [Server thread/INFO]: Preparing level "world"
+[14:49:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:49:20] [Server thread/INFO]: Time elapsed: 786 ms
+[14:49:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:49:20] [Server thread/INFO]: Time elapsed: 173 ms
+[14:49:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:49:20] [Server thread/INFO]: Time elapsed: 123 ms
+[14:49:20] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[14:49:21] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[14:49:21] [Server thread/INFO]: [Locatix] Enabling Locatix v1.0.1
+[14:49:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: locatix [1.0.1]
+[14:49:21] [Server thread/INFO]: [Locatix] PlaceholderAPI support enabled.
+[14:49:21] [Server thread/INFO]: [Locatix] Plugin enabled.
+[14:49:21] [Server thread/INFO]: [spark] Starting background profiler...
+[14:49:21] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[14:49:21] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[14:49:21] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[14:49:21] [Server thread/INFO]: Done preparing level "world" (2.303s)
+[14:49:21] [Server thread/INFO]: Running delayed init tasks
+[14:49:21] [Server thread/INFO]: Done (11.901s)! For help, type "help"
+[14:49:21] [Server thread/INFO]: Timings Reset
+[14:49:22] [Craft Scheduler Thread - 3 - Locatix/INFO]: [Locatix] The plugin is up-to-date! You are using the latest version.
+[14:51:23] [User Authenticator #0/INFO]: UUID of player Creeperucan is 98bb0f50-ad39-4959-883e-7a3c3ec7be26
+[14:51:24] [Server thread/INFO]: Creeperucan joined the game
+[14:51:24] [Server thread/INFO]: Creeperucan[/127.0.0.1:56852] logged in with entity id 128 at ([world]-1.7292526554339367, 67.0, 20.321118480043886)
+[14:51:59] [Server thread/INFO]: Creeperucan issued server command: /locatix adminpanel
+[14:51:59] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:52:04] [Server thread/INFO]: Creeperucan issued server command: /locatix adminpanel
+[14:58:05] [Server thread/INFO]: Creeperucan lost connection: Disconnected
+[14:58:05] [Server thread/INFO]: Creeperucan left the game

@@ -1,0 +1,160 @@
+# General
+prefix: "&8[&6Locatix&8] "
+
+locatix-not-found: "&cCommand 'locatix' not found in plugin.yml!"
+
+plugin-enabled: "&aPlugin enabled."
+plugin-disabled: "&cPlugin disabled."
+plugin-failed: "&cFailed to enable plugin!"
+
+unknown-command: "&cUnknown command."
+usage-command: "&eUsage: "
+use-help-command: "&cUnknown command. Use /locatix help"
+
+no-permission: "&cYou do not have permission to use this command."
+player-only: "&cOnly players can use this command."
+player-not-found: "&cPlayer not found!"
+
+# Language
+lang: "English"
+lang-updated: "&aUpdated language file: &e${lang}"
+lang-update-failed: "&cFailed to update language file:  &e${lang}"
+lang-not-found: "&cLanguage file not found: &e${lang}"
+lang-changed-server: "&eThe server language has been changed to &a${lang}&e."
+lang-changed-client: "&eYour language has been changed to &a${lang}&e."
+
+# Config
+config-reload: "&aConfig reloaded."
+config-updated: "&aConfig updated successfully."
+config-update-failed: "&cFailed to update config!"
+config-reset: "&aConfig reset successfully."
+config-reset-warn: "&cThis will reset your config."
+config-not-found: "&cconfig.yml not found in jar!"
+
+# Update
+update-checker-error: "&cFailed to check for updates."
+new-plugin-update: "&aNew version available: &e${version}"
+plugin-up-to-date: "&aThe plugin is up-to-date! You are using the latest version."
+
+# Death
+no-death-location: "&cNo death location found."
+last-death-title: "&8------ &6Last Death Location &8------"
+last-death-world: "&eWorld: &a${world}"
+last-death-location: "&eLocation: &a"
+death-location-hover: "&aClick to teleport"
+death-teleported: "&aYou have been teleported to the final point of death."
+
+# Coordinates
+coordinates-enabled: "&aCoordinates enabled."
+coordinates-disabled: "&cCoordinates disabled."
+
+invaild-display-type: "&cInvalid display-type. Using: &e${type}"
+invaild-bossbar-color: "&cInvalid bossbar color. Using: &e${color}"
+invaild-bossbar-style: "&cInvalid bossbar style. Using: &e${style}"
+
+# Convert
+already-in-nether: "&cYou are already in the Nether."
+already-in-overworld: "&cYou are already in the Overworld."
+nether-location: "&cNether Location: "
+overworld-location: "&aOverworld Location: "
+
+# Get Player
+player-title: "&8------ &6Player Location &8------"
+player: "&ePlayer: &a"
+player-location: "&ePlayer Location: "
+player-world: "&eThe Player's World: &a"
+
+player-teleported: "&aYou have been teleported to player &e${player}&a."
+world-not-found: "&cWorld not found!"
+
+# Share
+share-location-notification: "&ePlayer &a${player} &eshared location with you."
+share-location: "&a${player}&e's Location: "
+share-myself-error: "&cYou can't share your own location with yourself!"
+share-location-cooldown: "&cYou must wait &e${time} &cseconds before using this command again."
+
+# Help Menu
+locatix-title: "&8------ &6Locatix Help &8------"
+locatix-help: "&6/locatix help &7- &eShow this help menu."
+locatix-reload: "&6/locatix reload &7- &eReload the plugin."
+locatix-reset: "&6/locatix resetconfig &7- &eReset the config."
+locatix-adminpanel: "&6/locatix adminpanel &7- &eOpen the admin panel."
+locatix-serverlang: "&6/locatix serverlang <lang> &7- &eChange server language."
+locatix-get: "&6/locatix get <player> &7- &eView a player's coordinates and current world."
+
+locatix-lang: "&6/locatix lang <lang> &7- &eChange your language."
+locatix-lastdeath: "&6/locatix lastdeath &7- &eShow your last death location."
+locatix-coordinates: "&6/locatix coordinates &7- &eToggle coordinates on/off."
+locatix-share: "&6/locatix share <player> &7- &eShare your location for another player."
+locatix-convert: "&6/locatix convert <nether/world> &7- &eConvert your coordinates between the Nether and the Overworld."
+
+# Other
+placeholderapi-enabled: "&aPlaceholderAPI support enabled."
+placeholderapi-failed: "&cFailed to register PlaceholderAPI expansion."
+
+# Admin Panel
+admin-panel: "&8Locatix Admin Panel"
+
+player-manager-title: "&aPlayer Manager"
+player-manager-subtitle:
+  - "&7View online players"
+  - "&7and manage them."
+  - ""
+  - "&eClick to open"
+
+lang-settings-title: "&bLanguage Settings"
+lang-settings-subtitle:
+  - "&7Change your language."
+  - ""
+  - "&eClick to open"
+
+reload-plugin-title: "&cReload Plugin"
+reload-plugin-subtitle:
+  - "&7Reload config and"
+  - "&7language files."
+  - ""
+  - "&eClick to reload"
+
+plugin-info-title: "&aPlugin Information"
+plugin-info-subtitle:
+  - "&7Version: &e${version}"
+  - "&7Online Players: &e${online}"
+
+close-title: "&cClose"
+close-subtitle:
+  - "&7Close this menu."
+
+back-title: "&cBack"
+back-subtitle:
+  - "&7Return to Admin Menu."
+
+# Lang Menu
+lang-settings-panel: "&8Language Settings"
+
+lang-subtitle:
+  - "&7Change the server language."
+  - ""
+  - "&eClick to select"
+
+# Player Info
+player-info-panel: "&8Player Information"
+
+teleport-title: "&aTeleport"
+teleport-subtitle:
+  - "&6World: &e${world}"
+  - "&6X: &e${x}"
+  - "&6Y: &e${y}"
+  - "&6Z: &e${z}"
+  - ""
+  - "&aTeleport to player"
+
+# Player List
+player-list-panel: "&8Player List"
+
+player-list-subtitle:
+  - "&6World: &e${world}"
+  - "&6X: &e${x}"
+  - "&6Y: &e${y}"
+  - "&6Z: &e${z}"
+  - ""
+  - "&aClick to view information"

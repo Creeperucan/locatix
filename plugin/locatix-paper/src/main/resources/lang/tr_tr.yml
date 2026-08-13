@@ -1,0 +1,160 @@
+# Genel
+prefix: "&8[&6Locatix&8] "
+
+locatix-not-found: "&cplugin.yml dosyasında 'locatix' komutu bulunamadı!"
+
+plugin-enabled: "&aEklenti etkinleştirildi."
+plugin-disabled: "&cEklenti devre dışı bırakıldı."
+plugin-failed: "&cEklenti etkinleştirilemedi!"
+
+unknown-command: "&cBilinmeyen komut."
+usage-command: "&eKullanım: "
+use-help-command: "&cBilinmeyen komut. /locatix help kullanın"
+
+no-permission: "&cBu komutu kullanma izniniz yok."
+player-only: "&cBu komutu sadece oyuncular kullanabilir."
+player-not-found: "&cOyuncu bulunamadı!"
+
+# Dil
+lang: "Türkçe"
+lang-updated: "&aDil dosyası güncellendi: &e${lang}"
+lang-update-failed: "&cDil dosyası güncellenemedi: &e${lang}"
+lang-not-found: "&cDil dosyası bulunamadı: &e${lang}"
+lang-changed-server: "&eSunucu dili &a${lang} &eolarak değiştirildi."
+lang-changed-client: "&eDiliniz &a${lang} &eolarak değiştirildi."
+
+# Yapılandırma
+config-reload: "&aYapılandırma yeniden yüklendi."
+config-updated: "&aYapılandırma başarıyla güncellendi."
+config-update-failed: "&cYapılandırma güncellenemedi!"
+config-reset: "&aYapılandırma başarıyla sıfırlandı."
+config-reset-warn: "&cBu işlem yapılandırmanızı sıfırlayacak."
+config-not-found: "&cJar dosyasında config.yml bulunamadı!"
+
+# Güncelleme
+update-checker-error: "&cGüncellemeler kontrol edilemedi."
+new-plugin-update: "&aYeni sürüm mevcut: &e${version}"
+plugin-up-to-date: "&aEklenti güncel! En son sürümü kullanıyorsunuz."
+
+# Ölüm
+no-death-location: "&cÖlüm konumu bulunamadı."
+last-death-title: "&8------ &6Son Ölüm Konumu &8------"
+last-death-world: "&eDünya: &a&a${world}"
+last-death-location: "&eKonum: &a"
+death-location-hover: "&aIşınlanmak için tıkla"
+death-teleported: "&aÖlüm noktanıza ışınlandınız."
+
+# Koordinatlar
+coordinates-enabled: "&aKoordinatlar etkinleştirildi."
+coordinates-disabled: "&cKoordinatlar devre dışı bırakıldı."
+
+invaild-display-type: "&cGeçersiz display-type. Kullanılan: &e${type}"
+invaild-bossbar-color: "&cGeçersiz bossbar rengi. Kullanılan: &e${color}"
+invaild-bossbar-style: "&cGeçersiz bossbar stili. Kullanılan: &e${style}"
+
+# Dönüştür
+already-in-nether: "&cZaten Nether'dasınız."
+already-in-overworld: "&cZaten Overworld'dasınız."
+nether-location: "&cNether Konumu: "
+overworld-location: "&aOverworld Konumu: "
+
+# Oyuncu Al
+player-title: "&8------ &6Oyuncu Konumu &8------"
+player: "&eOyuncu: &a"
+player-location: "&eOyuncu Konumu: "
+player-world: "&eOyuncunun Dünyası: &a"
+
+player-teleported: "&a&e${player} &aoyuncusuna ışınlandınız."
+world-not-found: "&cDünya bulunamadı!"
+
+# Paylaş
+share-location-notification: "&eOyuncu &a${player} &esizinle konumunu paylaştı."
+share-location: "&a${player}&e's Konumu: "
+share-myself-error: "&cKendi konumunuzu kendinizle paylaşamazsınız!"
+share-location-cooldown: "&cBu komutu tekrar kullanmadan önce &e${time} &csaniye beklemelisiniz."
+
+# Yardım Menüsü
+locatix-title: "&8------ &6Locatix Yardım &8------"
+locatix-help: "&6/locatix help &7- &eBu yardım menüsünü gösterir."
+locatix-reload: "&6/locatix reload &7- &eEklentiyi yeniden yükler."
+locatix-reset: "&6/locatix resetconfig &7- &eYapılandırmayı sıfırlar."
+locatix-adminpanel: "&6/locatix adminpanel &7- &eYönetici panelini açar."
+locatix-serverlang: "&6/locatix serverlang <dil> &7- &eSunucu dilini değiştirir."
+locatix-get: "&6/locatix get <oyuncu> &7- &eBir oyuncunun koordinatlarını ve bulunduğu dünyayı gösterir."
+
+locatix-lang: "&6/locatix lang <dil> &7- &eKendi dilinizi değiştirir."
+locatix-lastdeath: "&6/locatix lastdeath &7- &eSon ölüm konumunuzu gösterir."
+locatix-coordinates: "&6/locatix coordinates &7- &eKoordinatları açıp kapatır."
+locatix-share: "&6/locatix share <oyuncu> &7- &eKonumunuzu başka bir oyuncuyla paylaşır."
+locatix-convert: "&6/locatix convert <nether/world> &7- &eKoordinatlarınızı Nether ile Overworld arasında dönüştürür."
+
+# Diğer
+placeholderapi-enabled: "&aPlaceholderAPI desteği etkinleştirildi."
+placeholderapi-failed: "&cPlaceholderAPI genişletmesi kaydedilemedi."
+
+# Yönetici Paneli
+admin-panel: "&8Locatix Yönetici Paneli"
+
+player-manager-title: "&aOyuncu Yöneticisi"
+player-manager-subtitle:
+  - "&7Çevrimiçi oyuncuları görüntüle"
+  - "&7ve yönet."
+  - ""
+  - "&eAçmak için tıkla"
+
+lang-settings-title: "&bDil Ayarları"
+lang-settings-subtitle:
+  - "&7Dilinizi değiştirin."
+  - ""
+  - "&eAçmak için tıkla"
+
+reload-plugin-title: "&cEklentiyi Yeniden Yükle"
+reload-plugin-subtitle:
+  - "&7Yapılandırma ve dil"
+  - "&7dosyalarını yeniden yükle."
+  - ""
+  - "&eYeniden yüklemek için tıkla"
+
+plugin-info-title: "&aEklenti Bilgileri"
+plugin-info-subtitle:
+  - "&7Sürüm: &e${version}"
+  - "&7Çevrimiçi Oyuncular: &e${online}"
+
+close-title: "&cKapat"
+close-subtitle:
+  - "&7Bu menüyü kapat."
+
+back-title: "&cGeri"
+back-subtitle:
+  - "&7Yönetici Menüsüne dön."
+
+# Dil Menüsü
+lang-settings-panel: "&8Dil Ayarları"
+
+lang-subtitle:
+  - "&7Sunucu dilini değiştir."
+  - ""
+  - "&eSeçmek için tıkla"
+
+# Oyuncu Bilgisi
+player-info-panel: "&8Oyuncu Bilgileri"
+
+teleport-title: "&aIşınlan"
+teleport-subtitle:
+  - "&6Dünya: &e${world}"
+  - "&6X: &e${x}"
+  - "&6Y: &e${y}"
+  - "&6Z: &e${z}"
+  - ""
+  - "&aOyuncuya ışınlan"
+
+# Oyuncu Listesi
+player-list-panel: "&8Oyuncu Listesi"
+
+player-list-subtitle:
+  - "&6Dünya: &e${world}"
+  - "&6X: &e${x}"
+  - "&6Y: &e${y}"
+  - "&6Z: &e${z}"
+  - ""
+  - "&aBilgileri görmek için tıkla"
