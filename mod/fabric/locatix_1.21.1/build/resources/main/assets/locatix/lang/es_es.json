@@ -1,0 +1,8 @@
+{
+  "key.locatix.mod_key_category": "Locatix",
+  "key.category.locatix.mod_key_category": "Locatix",
+  "key.locatix.coord_enabled": "Coordenadas Activado/Desactivado",
+  "key.locatix.copy_coord": "Copiar coordenadas",
+
+  "text.locatix.copied": "Coordenadas copiadas al portapapeles."
+}

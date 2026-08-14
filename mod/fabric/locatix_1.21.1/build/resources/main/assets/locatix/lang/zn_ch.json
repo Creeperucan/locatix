@@ -1,0 +1,8 @@
+{
+  "key.locatix.mod_key_category": "Locatix",
+  "key.category.locatix.mod_key_category": "Locatix",
+  "key.locatix.coord_enabled": "坐标 开/关",
+  "key.locatix.copy_coord": "复制坐标",
+
+  "text.locatix.copied": "坐标已复制到剪贴板。"
+}

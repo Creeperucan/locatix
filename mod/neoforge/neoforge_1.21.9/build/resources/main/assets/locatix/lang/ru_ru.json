@@ -1,0 +1,8 @@
+{
+  "key.locatix.mod_key_category": "Locatix",
+  "key.category.locatix.mod_key_category": "Locatix",
+  "key.locatix.coord_enabled": "Координаты Вкл/Выкл",
+  "key.locatix.copy_coord": "Скопировать координаты",
+
+  "text.locatix.copied": "Координаты скопированы в буфер обмена."
+}

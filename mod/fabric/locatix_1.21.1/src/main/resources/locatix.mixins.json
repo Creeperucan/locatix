@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.creeperucan.locatix.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"DebugHudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "itemGroup.locatix": "Example Mod Tab",
+  "block.locatix.example_block": "Example Block",
+  "item.locatix.example_item": "Example Item",
+
+  "locatix.configuration.title": "Locatix Configs",
+  "locatix.configuration.section.locatix.common.toml": "Locatix Configs",
+  "locatix.configuration.section.locatix.common.toml.title": "Locatix Configs",
+  "locatix.configuration.items": "Item List",
+  "locatix.configuration.logDirtBlock": "Log Dirt Block",
+  "locatix.configuration.magicNumberIntroduction": "Magic Number Text",
+  "locatix.configuration.magicNumber": "Magic Number"
+}
