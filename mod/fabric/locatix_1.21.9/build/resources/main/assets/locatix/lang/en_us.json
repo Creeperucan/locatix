@@ -1,0 +1,9 @@
+{
+  "key.locatix.mod_key_category": "Locatix",
+  "key.category.locatix.mod_key_category": "Locatix",
+  "key.locatix.coord_enabled": "Coordinates ON/OFF",
+  "key.locatix.coord_convert": "Coordinates Convert",
+  "key.locatix.copy_coord": "Copy Coordinates",
+
+  "text.locatix.copied": "The coordinates were copied to the clipboard."
+}

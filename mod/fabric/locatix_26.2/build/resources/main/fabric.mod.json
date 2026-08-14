@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "locatix",
+	"version": "26.2_1.0.0-fabric",
+	"name": "Locatix",
+	"description": "This mod that displays advanced player location.",
+	"authors": ["Creeperucan"],
+	"contact": {
+		"sources": "https://github.com/Creeperucan/locatix",
+		"issues": "https://github.com/Creeperucan/locatix/issues"
+	},
+	"license": "GPL-3.0-only",
+	"icon": "assets/locatix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.creeperucan.locatix.Locatix"
+		],
+		"client": [
+			"net.creeperucan.locatix.LocatixClient"
+		],
+		"fabric-datagen": [
+			"net.creeperucan.locatix.LocatixDataGenerator"
+		]
+	},
+	"mixins": [
+		"locatix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

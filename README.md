@@ -69,7 +69,7 @@ To compile Locatix, your Java version must be 21 or higher.
 After cloning this repository, run these commands:
 -   **On Linux or macOS:** `./gradlew build`
 -   **On Windows:** `gradlew build`
-- 
+
 All `.jar` files will be generated in the `all_jars` directory.
 
 # License

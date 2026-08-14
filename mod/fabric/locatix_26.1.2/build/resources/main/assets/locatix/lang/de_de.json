@@ -1,0 +1,8 @@
+{
+  "key.locatix.mod_key_category": "Locatix",
+  "key.category.locatix.mod_key_category": "Locatix",
+  "key.locatix.coord_enabled": "Koordinaten Ein/Aus",
+  "key.locatix.copy_coord": "Koordinaten kopieren",
+
+  "text.locatix.copied": "Koordinaten in die Zwischenablage kopiert."
+}
